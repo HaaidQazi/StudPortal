@@ -1,0 +1,30 @@
+{
+    "student": {
+      "name": "John Doe",
+      "id": "123456",
+      "phone": "+91 9876543210",
+      "email": "john.doe@example.com",
+      "degree": {
+        "bachelors": "B.Tech",
+        "discipline": "Computer Science",
+        "joinDate": "2022-08-15"
+      }
+    },
+    "guardian": {
+      "email": "guardian@example.com",
+      "phone": "+91 8765432109",
+      "alternateEmail": "alt@example.com",
+      "address": "123, XYZ Street, City"
+    },
+    "transfer": {
+      "status": "Not Applied",
+      "date": "N/A"
+    },
+    "admin": {
+      "feesPayment": "Pending",
+      "lastDate": "2025-03-10",
+      "uploadCertificate": "Not Uploaded",
+      "pendingStatus": "Awaiting Verification"
+    }
+  }
+  

@@ -1,0 +1,89 @@
+@import "tailwindcss";
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #1f2937;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 12px 18px;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+  }
+  
+  .sidebar ul li:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Active Sidebar Link */
+  .sidebar ul li.active {
+    background: #3b82f6;
+  }
+  
+  /* Content Area */
+  .content {
+    margin-left: 260px;
+    padding: 20px;
+  }
+  
+  /* Cards Styling */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .logout-btn:hover {
+    background: #b02a37;
+  }
+  
